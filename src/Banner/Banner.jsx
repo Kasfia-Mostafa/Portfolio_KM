@@ -60,10 +60,10 @@ const Banner = () => {
                 </div>
               </div>
             </div>
-            <div data-aos="zoom-in">
-              <button className="w-40 h-16 mt-8 bg-white text-black">
+            <div className="text-center w-40 h-16 mt-8 p-5 bg-white text-black" data-aos="zoom-in">
+              <a href="/src/assets/Branding.pdf" download>
                 Download CV
-              </button>
+              </a>
             </div>
           </div>
         </div>
