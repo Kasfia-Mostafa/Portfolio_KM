@@ -9,7 +9,7 @@ const Banner = () => {
 
 const About = () => {
   return (
-    <section className="">
+    <section>
       <div className="bg-[#fcdac1] max-w-full h-[100vh] flex justify-center items-center">
         <div data-aos="zoom-in">
           <div className="flex">
@@ -20,12 +20,12 @@ const About = () => {
                 alt=""
               />
             </div>
-            <div className="w-2/4  space-y-4 mx-10">
+            <div className="w-2/4  space-y-5 mx-10">
               <h2 className="text-8xl text-orange-800  font-bold">About Me</h2>
-              <h2 className="text-4xl text-orange-600">Kasfia Mostafa</h2>
-              <p className="text-lg text-orange-500">
-                I'm front-end developer skilled in HTML, CSS, JavaScript,
-                React.js, MongoDB.js, Node.js and Express.js .I'm passionate about
+              <h2 className="text-5xl text-orange-600">Kasfia Mostafa</h2>
+              <p className="text-2xl text-orange-500">
+                I'm a front-end developer skilled in HTML, CSS, JavaScript,
+                React.js, MongoDB.js, Node.js and Express.js . I'm passionate about
                 creating intuitive interfaces, merging design with
                 functionality, and staying updated with evolving technologies.
               </p>
