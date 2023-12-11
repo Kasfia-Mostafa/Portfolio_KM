@@ -1,5 +1,14 @@
 import toast, { Toaster } from "react-hot-toast";
 import emailjs from "@emailjs/browser";
+import Aos from "aos";
+import { useEffect } from "react";
+
+const Banner = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+};
+
 
 const Contact = () => {
   const sendEmail = (e) => {
@@ -24,7 +33,7 @@ const Contact = () => {
       <div>
         <img className="w-5/6 h-full" src="/src/assets/OIG.jpeg" alt="" />
       </div>
-      <div className="pt-10">
+      <div data-aos="zoom-in" className="pt-10">
         <h2 className="text-8xl text-orange-800 font-bold ">
           Contact <span className="text-orange-600">Me</span>
         </h2>
