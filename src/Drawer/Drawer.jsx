@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Banner from "../Banner/Banner";
 
 const Drawer = () => {
@@ -8,7 +9,6 @@ const Drawer = () => {
         <div className="drawer-content">
           <Banner></Banner>
         </div>
-
         <div className="drawer-side">
           <label
             htmlFor="my-drawer"
@@ -19,15 +19,14 @@ const Drawer = () => {
             <li className="border-b-2 border-orange-100">
               <a>Home</a>
             </li>
-
+            <Link to='about'>
             <li className="border-b-2 border-orange-100">
               <a>About</a>
             </li>
-
+            </Link>
             <li className="border-b-2 border-orange-100">
               <a>Product</a>
             </li>
-
             <li>
               <a>Contact</a>
             </li>
