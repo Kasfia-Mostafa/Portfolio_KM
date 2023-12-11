@@ -10,7 +10,7 @@ const Banner = () => {
 
 const Skill = () => {
   return (
-    <div className="bg-[#fcdac1] max-w-full h-[60vh]">
+    <div className="bg-[#fcdac1] max-w-full h-[80vh]">
       <div data-aos="zoom-in">
         <h2 className="text-7xl text-center pt-10 text-orange-600 font-bold ">
           Skills
