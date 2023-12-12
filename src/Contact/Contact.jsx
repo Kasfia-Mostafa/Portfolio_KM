@@ -1,7 +1,8 @@
 import toast, { Toaster } from "react-hot-toast";
-import emailjs from "@emailjs/browser";
+import emailjs from '@emailjs/browser';
 import Aos from "aos";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
+import { FaLocationArrow } from "react-icons/fa";
 
 const Banner = () => {
   useEffect(() => {
@@ -11,6 +12,7 @@ const Banner = () => {
 
 
 const Contact = () => {
+  const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
     e.target.reset();
@@ -39,7 +41,7 @@ const Contact = () => {
         </h2>
         <div>
           <div id="create-course-form" className="w-full  ">
-            <form className="card-body" onSubmit={sendEmail}>
+            <form ref={form} className="card-body" onSubmit={sendEmail}>
               <div className="form-control">
                 <label className="label">
                   <span className="label-text text-orange-600 font-bold">
@@ -99,9 +101,10 @@ const Contact = () => {
               <div className="form-control mt-6">
                 <button
                   onClick={notify}
-                  className="btn bg-gradient-to-tr from-orange-500 to-orange-300 border-none text-white"
+                  className="btn bg-gradient-to-tr from-orange-500 to-orange-300 border-none text-white text-lg"
                 >
                   Sent Message
+                <FaLocationArrow />
                 </button>
                 <Toaster />
               </div>

@@ -37,7 +37,7 @@ const Banner = () => {
               <div>
                 <div className="flex gap-2 ">
                   <div data-aos="fade-right">
-                    <h1 className="bg-gradient-to-tr from-orange-600 to-slate-200">
+                    <h1 className="">
                       Kasfia
                     </h1>
                   </div>
@@ -45,7 +45,7 @@ const Banner = () => {
                 </div>
                 <div className="flex gap-2 mt-2 ">
                   <div data-aos="fade-right">
-                    <h1 className="bg-gradient-to-tr from-orange-600 to-slate-200">
+                    <h1 className="">
                       Mostafa
                     </h1>
                   </div>
@@ -53,7 +53,7 @@ const Banner = () => {
                 </div>
                 <div className="flex gap-2 mt-2">
                   <div data-aos="fade-right">
-                    <h1 className="bg-gradient-to-tr from-orange-600 to-slate-200">
+                    <h1 className="">
                       Front-End
                     </h1>
                   </div>
@@ -61,7 +61,7 @@ const Banner = () => {
                 </div>
                 <div className="flex gap-2 mt-2">
                   <div data-aos="fade-right">
-                    <h1 className="bg-gradient-to-tr from-orange-600 to-slate-200">
+                    <h1 className="">
                       Developer
                     </h1>
                   </div>

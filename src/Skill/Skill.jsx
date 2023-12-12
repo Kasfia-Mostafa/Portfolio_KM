@@ -16,7 +16,7 @@ const Skill = () => {
           Skills
         </h2>
       </div>
-      <div className=" flex justify-center items-center h-[40vh]">
+      <div className=" grid justify-center items-center h-[40vh]">
         <Marquee pauseOnHover={true} speed={100}>
           <img
             className="w-20 mx-14"
@@ -60,6 +60,53 @@ const Skill = () => {
             alt=""
           />
           <img className="w-20 mx-14" src="/src/assets/Skills/Git.svg" alt="" />
+        </Marquee>
+        <Marquee pauseOnHover={true} speed={100}>
+          <img
+            className="w-20 mx-14"
+            src="/src/assets/Skills/HTML.svg"
+            alt=""
+          />
+          <img className="w-20 mx-14" src="/src/assets/Skills/CSS.svg" alt="" />
+          <img
+            className="w-20 mx-14"
+            src="/src/assets/Skills/TailwindCSS-Light.svg"
+            alt=""
+          />
+          <img className="w-20 mx-14" src="/src/assets/Skills/Git.svg" alt="" />
+          <img
+            className="w-20 mx-14"
+            src="/src/assets/Skills/MongoDB.svg"
+            alt=""
+          />
+          <img
+            className="w-20 mx-14"
+            src="/src/assets/Skills/JavaScript.svg"
+            alt=""
+          />
+           <img
+            className="w-20 mx-14"
+            src="/src/assets/Skills/ExpressJS-Light.svg"
+            alt=""
+          />
+          <img
+            className="w-20 mx-14"
+            src="/src/assets/Skills/React-Light.svg"
+            alt=""
+          />
+          
+          <img
+            className="w-20 mx-14"
+            src="/src/assets/Skills/NodeJS-Light.svg"
+            alt=""
+          />
+         
+          <img
+            className="w-20 mx-14"
+            src="/src/assets/Skills/Firebase-Light.svg"
+            alt=""
+          />
+          
         </Marquee>
       </div>
     </div>

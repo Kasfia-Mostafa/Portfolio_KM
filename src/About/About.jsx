@@ -1,6 +1,7 @@
 import Aos from "aos";
 import { useEffect } from "react";
 import { CiSaveDown1 } from "react-icons/ci";
+import { FaFacebookF, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Banner = () => {
   useEffect(() => {
@@ -26,23 +27,41 @@ const About = () => {
               <h2 className="text-5xl text-orange-600">Kasfia Mostafa</h2>
               <p className="text-2xl text-orange-500">
                 I'm a front-end developer skilled in HTML, CSS, JavaScript,
-                React.js, MongoDB.js, Node.js and Express.js . I'm passionate about
-                creating intuitive interfaces, merging design with
+                React.js, MongoDB.js, Node.js and Express.js . I'm passionate
+                about creating intuitive interfaces, merging design with
                 functionality, and staying updated with evolving technologies.
               </p>
-              <div
-              className="flex text-center w-[170px] h-16 mt-8 p-5 btn bg-white border-none hover:bg-orange-100 text-black"
-              data-aos="zoom-in"
-            >
-              <a href="/src/assets/Branding.pdf" download>
-                Download CV
-              </a>
-              <CiSaveDown1 className="ml-2 text-2xl" />
+              <div className="flex gap-10 ">
+                <div
+                  className="flex text-center bg-gradient-to-tr from-orange-600 to-orange-100 w-[170px] h-16 mt-8 p-5 btn bg-white border-none hover:bg-orange-200 text-black"
+                  data-aos="zoom-in"
+                >
+                  <a
+                    className="text-lg text-white"
+                    href="/src/assets/Branding.pdf"
+                    download
+                  >
+                    Resume
+                  </a>
+                  <CiSaveDown1 className="ml-2 text-2xl text-white " />
+                </div>
+                <nav className="grid grid-cols-4 mt-6 gap-4 md:place-self-center md:justify-self-end">
+                  <a href="https://www.linkedin.com/in/kasfia-mostafa-95825a2a4/">
+                    <FaLinkedin className="text-2xl text-orange-600" />
+                  </a>
+                  <a href="https://www.facebook.com/KasfiaSworna/">
+                    <FaFacebookF className="text-2xl text-orange-600" />
+                  </a>
+                  <a href="https://twitter.com/Kasfia_Mostafa">
+                    <FaTwitter className="text-2xl text-orange-600" />
+                  </a>
+                  <a href="https://github.com/Kasfia-Mostafa">
+                    <FaGithub className="text-2xl text-orange-600" />
+                  </a>
+                </nav>
+              </div>
             </div>
-            </div>
-           
           </div>
-         
         </div>
       </div>
     </section>
