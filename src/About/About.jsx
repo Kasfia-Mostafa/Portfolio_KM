@@ -10,7 +10,7 @@ const Banner = () => {
 const About = () => {
   return (
     <section>
-      <div className="bg-[#fcdac1] max-w-full h-[100vh] flex justify-center items-center">
+      <div className="bg-[#fcdac1] max-w-full h-[150vh] flex justify-center items-center">
         <div data-aos="zoom-in">
           <div className="flex">
             <div className="w-2/6 border-r border-orange-500 mx-20">
