@@ -1,5 +1,6 @@
 import Aos from "aos";
 import { useEffect } from "react";
+import { CiSaveDown1 } from "react-icons/ci";
 
 const Banner = () => {
   useEffect(() => {
@@ -29,8 +30,19 @@ const About = () => {
                 creating intuitive interfaces, merging design with
                 functionality, and staying updated with evolving technologies.
               </p>
+              <div
+              className="flex text-center w-[170px] h-16 mt-8 p-5 btn bg-white border-none hover:bg-orange-100 text-black"
+              data-aos="zoom-in"
+            >
+              <a href="/src/assets/Branding.pdf" download>
+                Download CV
+              </a>
+              <CiSaveDown1 className="ml-2 text-2xl" />
             </div>
+            </div>
+           
           </div>
+         
         </div>
       </div>
     </section>

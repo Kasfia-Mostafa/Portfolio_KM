@@ -31,7 +31,7 @@ const Contact = () => {
   return (
     <div className="bg-[#fcdac1] flex">
       <div>
-        <img className="w-5/6 h-full" src="/src/assets/OIG.jpeg" alt="" />
+        <img className="w-5/6 h-full" src="https://i.ibb.co/YfTVM1V/OIG.jpg" alt="" />
       </div>
       <div data-aos="zoom-in" className="pt-10">
         <h2 className="text-8xl text-orange-800 font-bold ">
