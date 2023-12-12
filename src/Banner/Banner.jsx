@@ -27,7 +27,7 @@ const Banner = () => {
         >
           <img
             className="w-full h-60 lg:h-[600px] rounded-full px-12"
-            src="/src/assets/Untitled design.png"
+            src="https://i.ibb.co/6rp9DS3/Untitled-design.png"
             alt=""
           />
         </div>

@@ -18,7 +18,7 @@ const About = () => {
             <div className="w-4/6 lg:border-r border-orange-500 ml-20 lg:ml-32">
               <img
                 className="lg:h-96 rounded-full"
-                src="/src/assets/About Image.png"
+                src="https://i.ibb.co/3WjHv4q/About-Image.png"
                 alt=""
               />
             </div>
