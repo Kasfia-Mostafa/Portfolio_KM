@@ -12,20 +12,20 @@ const Banner = () => {
 const About = () => {
   return (
     <section>
-      <div className="bg-[#fcdac1] max-w-full h-[150vh] flex justify-center items-center">
+      <div className="bg-[#fcdac1] max-w-full h-[220vh] lg:h-[150vh] flex justify-center items-center">
         <div data-aos="zoom-in">
-          <div className="flex">
-            <div className="w-2/6 border-r border-orange-500 mx-20">
+          <div className="grid grid-cols-1 lg:grid-cols-2">
+            <div className="w-4/6 lg:border-r border-orange-500 ml-20 lg:ml-32">
               <img
-                className="h-96 rounded-full"
+                className="lg:h-96 rounded-full"
                 src="/src/assets/About Image.png"
                 alt=""
               />
             </div>
-            <div className="w-2/4  space-y-5 mx-10">
-              <h2 className="text-8xl text-orange-800  font-bold">About Me</h2>
-              <h2 className="text-5xl text-orange-600">Kasfia Mostafa</h2>
-              <p className="text-2xl text-orange-500">
+            <div className="w-3/4 space-y-5 mx-10 my-5">
+              <h2 className="text-6xl lg:text-8xl text-orange-800  font-bold">About Me</h2>
+              <h2 className="text-4xl lg:text-5xl text-orange-600">Kasfia Mostafa</h2>
+              <p className="text-2xl lg:text-2xl text-orange-500">
                 I'm a front-end developer skilled in HTML, CSS, JavaScript,
                 React.js, MongoDB.js, Node.js and Express.js . I'm passionate
                 about creating intuitive interfaces, merging design with
@@ -45,7 +45,7 @@ const About = () => {
                   </a>
                   <CiSaveDown1 className="ml-2 text-2xl text-white " />
                 </div>
-                <nav className="grid grid-cols-4 mt-6 gap-4 md:place-self-center md:justify-self-end">
+                <nav className="grid grid-cols-4 mt-14 lg:mt-6 gap-4 md:place-self-center md:justify-self-end">
                   <a href="https://www.linkedin.com/in/kasfia-mostafa-95825a2a4/">
                     <FaLinkedin className="text-2xl text-orange-600" />
                   </a>

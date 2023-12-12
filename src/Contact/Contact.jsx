@@ -1,5 +1,5 @@
 import toast, { Toaster } from "react-hot-toast";
-import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
 import Aos from "aos";
 import { useEffect, useRef } from "react";
 import { FaLocationArrow } from "react-icons/fa";
@@ -10,12 +10,10 @@ const Banner = () => {
   }, []);
 };
 
-
 const Contact = () => {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-    e.target.reset();
 
     emailjs
       .sendForm("gmail", "template_64wlmg1", form.current, "LXyFUKy3cS1FeSfiN")
@@ -27,16 +25,21 @@ const Contact = () => {
           console.log(error.text);
         }
       );
+    e.target.reset();
   };
   const notify = () => toast.success("Message sent successfully");
 
   return (
-    <div className="bg-[#fcdac1] flex">
+    <div className="bg-[#fcdac1] grid lg:grid-cols-2">
       <div>
-        <img className="w-5/6 h-full" src="https://i.ibb.co/YfTVM1V/OIG.jpg" alt="" />
+        <img
+          className="w-full h-full"
+          src="https://i.ibb.co/YfTVM1V/OIG.jpg"
+          alt=""
+        />
       </div>
-      <div data-aos="zoom-in" className="pt-10">
-        <h2 className="text-8xl text-orange-800 font-bold ">
+      <div data-aos="zoom-in" className="pt-10 px-10">
+        <h2 className="text-8xl text-orange-800 font-bold text-center">
           Contact <span className="text-orange-600">Me</span>
         </h2>
         <div>
@@ -104,7 +107,7 @@ const Contact = () => {
                   className="btn bg-gradient-to-tr from-orange-500 to-orange-300 border-none text-white text-lg"
                 >
                   Sent Message
-                <FaLocationArrow />
+                  <FaLocationArrow />
                 </button>
                 <Toaster />
               </div>
